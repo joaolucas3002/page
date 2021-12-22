@@ -1,0 +1,114 @@
+.Aspirin-C-1-hex { color: #225378; }
+.Aspirin-C-2-hex { color: #1695A3; }
+.Aspirin-C-3-hex { color: #ACF0F2; }
+.Aspirin-C-4-hex { color: #F3FFE2; }
+.Aspirin-C-5-hex { color: #EB7F00; }
+
+body,h1,h2,h3,p,main,article,section,footer,aside,header,input{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+
+}
+
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+header{
+    height: 40px;
+}
+h1{
+    font-size: 2.5em;
+    font-variant: small-caps;
+}
+h2{
+    font-size: 1.5em;
+}
+img{
+    margin: 5px 0px 0px 9px;
+    height: 30px;
+}
+#color{
+    background-color: #1695A3;
+    background-image: url(imagens/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: left center;
+    background-size: cover;
+    padding: 20px;
+    color: #F3FFE2;
+    text-shadow: 1px 1px 5px black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.363);
+    
+}
+#color p{
+    font-size: 1.2rem;
+}
+
+.article{
+    padding: 20px;   
+}
+#from{
+    
+    display: none;
+    border-radius: 15px;
+    position: fixed;
+    background-color: #225378;
+    padding: 10px 5vw 3px;
+    color: #F3FFE2;
+    left: 50%;
+    top: 50%;
+    box-shadow: 1px 2px 5px #0000008c;
+    transform: translate(-50%,-50%);
+    
+
+    
+
+}
+#fechar{
+    background-color: rgba(255, 255, 255, 0.116);
+    border: none;
+    border-radius: 100%;
+    color: white;
+    position: absolute;
+    right: 4vw;
+    padding: 3px 6px;
+    }
+    #fechar:hover{
+        background-color:  rgba(255, 255, 255, 0.466);
+    }
+
+#from #text,#email{
+    padding: 3px;
+    margin: 0.5vw auto;
+    font-size: 0.9em;
+    display: block;
+}
+
+#button{
+    background-color: #EB7F00;
+    color:#F3FFE2;
+    width: 160px;
+    padding: 3px;
+    display: block;
+    margin: 10px auto;
+}
+#saiba-mais{
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    background-color: #225378;
+    color: #F3FFE2;
+    width: 160px;
+    padding: 3px;
+    margin: 10px auto;
+    border-radius: 8px;
+    display: block;
+    
+}
+main{
+    padding:0 0 20px ;
+}
+
