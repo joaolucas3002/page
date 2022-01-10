@@ -1,7 +1,7 @@
 .Aspirin-C-1-hex { color: #225378; }
 .Aspirin-C-2-hex { color: #1695A3; }
 .Aspirin-C-3-hex { color: #ACF0F2; }
-.Aspirin-C-4-hex { color: #f9fff1; }
+.Aspirin-C-4-hex { color: #f1f1f1; }
 .Aspirin-C-5-hex { color: #EB7F00; }
 
 body,h1,h2,h3,p,main,article,section,footer,aside,header,input{
@@ -39,7 +39,7 @@ img{
     background-position: left center;
     background-size: cover;
     padding: 20px;
-    color: #f9fff1;
+    color: #f1f1f1;
     text-shadow: 1px 1px 5px black;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.363);
     
