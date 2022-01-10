@@ -90,7 +90,7 @@ img{
 
 #button{
     background-color: #EB7F00;
-    color:#F3FFE2;
+    color:#f1f1f1;
     width: 160px;
     padding: 3px;
     display: block;
@@ -100,7 +100,7 @@ img{
     font-variant: small-caps;
     font-size: 1.3rem;
     background-color: #225378;
-    color: #F3FFE2;
+    color: #d4d3d3;
     width: 160px;
     padding: 3px;
     margin: 10px auto;
