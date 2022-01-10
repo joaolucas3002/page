@@ -16,13 +16,14 @@ x.onclick = function saiba(){
 
 let valor = document.querySelector("#button") 
 valor.onclick = function enviar() {
-    return{
-        text:document.querySelector("#text").value,
-        mail:document.querySelector("#email").value,
-            pas:console.log(text,mail)
+        let text = document.querySelector("#text").value;
+        let mail =document.querySelector("#email").value;
+
+        return{
+            text:localStorage.getItem("name",text),
+            mail:localStorage.getItem("mail",mail),
+        }
     }
-    }
-    
 
 
 
