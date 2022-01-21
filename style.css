@@ -13,14 +13,25 @@ text-decoration: none;
 }
 
 body{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #3d7274;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    max-width: 750px;
+    margin: auto;
+    text-shadow: 1px 1px 5px black;
 }
 header{
     height: 40px;
+    background-color: white;
 }
+    main{
+        background-color: white;
+        background-image: url(imagens/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+        background-position: left center;
+        background-size: cover;
+    }
+
 h1{
     font-size: 2.5em;
     font-variant: small-caps;
@@ -33,15 +44,9 @@ img{
     height: 30px;
 }
 #color{
-    background-color: #1695A3;
-    background-image: url(imagens/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
-    background-attachment: fixed;
-    background-position: left center;
-    background-size: cover;
     padding: 20px;
     color: #fafafa;
-    text-shadow: 1px 1px 5px black;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.363);
+
     
 }
 #color p{
@@ -51,64 +56,67 @@ img{
 .article{
     padding: 20px;   
 }
+.article2{
+    padding: 20px;   
+}
 #from{
-    
-    display: none;
-    border-radius: 15px;
-    position: fixed;
+    display: block;
     background-color: #225378;
-    padding: 10px 5vw 3px;
+    padding:20px;
     color: #F3FFE2;
-    left: 50%;
-    top: 50%;
-    box-shadow: 1px 2px 5px #0000008c;
-    transform: translate(-50%,-50%);
-    
-
-    
+    text-align: center;
+}
+#from2{
+    display: grid;
+    grid-template-columns: 1fr;
 
 }
-#fechar{
-    background-color: rgba(255, 255, 255, 0.116);
-    border: none;
-    border-radius: 100%;
-    color: white;
-    position: absolute;
-    right: 4vw;
-    padding: 3px 6px;
-    }
-    #fechar:hover{
-        background-color:  rgba(255, 255, 255, 0.466);
-    }
-
-#from #text,#email{
-    padding: 3px;
-    margin: 0.5vw auto;
-    font-size: 0.9em;
-    display: block;
+#from2 input {
+    margin: 10px 0;
+    
 }
 
 #button{
     background-color: #EB7F00;
     color:#f1f1f1;
-    width: 160px;
+    width: 180px;
     padding: 3px;
     display: block;
     margin: 10px auto;
-}
-#saiba-mais{
+    font-size: 1rem;
     font-variant: small-caps;
-    font-size: 1.3rem;
-    background-color: #225378;
-    color: #ffffff;
-    width: 160px;
-    padding: 3px;
-    margin: 10px auto;
-    border-radius: 8px;
-    display: block;
     
 }
-main{
-    padding:0 0 20px ;
-}
 
+@media screen and (min-width:570px){
+    
+
+    header{
+    margin-top:10px;
+    border-radius: 20px 20px 0 0;
+    }
+    main{
+    border-radius: 0 0 20px 20px ;
+    }
+
+    #conteiner{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #from{
+        border-radius: 0 0 20px 20px ;
+        padding:20px 30px;
+    }
+    #from2{
+        display: grid ;
+        grid-template-columns: repeat(2,1fr);
+        padding:0 30px;
+    }
+    #from2 input {
+        margin: 0;
+        
+    }
+    #button{
+        margin: 20px auto 0;
+    }
+}
